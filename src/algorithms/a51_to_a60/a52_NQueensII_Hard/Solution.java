@@ -1,4 +1,4 @@
-package algorithms.a51_to_a60.a52_NQueensII;
+package algorithms.a51_to_a60.a52_NQueensII_Hard;
 
 import java.util.ArrayList;
 import java.util.List;

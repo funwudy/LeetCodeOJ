@@ -1,4 +1,4 @@
-package algorithms.a1_to_a10.a10_RegularExpressionMatching;
+package algorithms.a1_to_a10.a10_RegularExpressionMatching_Hard;
 
 public class Solution {
     public boolean isMatch(String s, String p) {
@@ -6,8 +6,17 @@ public class Solution {
     }
     
     public boolean helper(String s, int s1, String p, int s2) {
-    	if (s1 >= s.length() || s2 >= p.length()) {
+    	if (s1 >= s.length()) {
     		//TODO
+    		if (s2 >= p.length()) {
+    			return true;
+    		} else if (s2 + 1 < p.length() && p.charAt(s2 + 1) == '*') {
+    			return helper(s, s1, p, s2 + 2);
+    		} else {
+    			return false;
+    		}
+    	} else if (s2 >= p.length()) {
+    		return false;
     	}
     	if (s2 + 1 >= p.length() || (s2 + 1 < p.length() && p.charAt(s2 + 1) != '*')) {
     		return s.charAt(s1) == p.charAt(s2) || p.charAt(s2) == '.' ? helper(s, s1 + 1, p, s2 + 1) : false;
@@ -41,5 +50,6 @@ public class Solution {
     	System.out.println(solution.isMatch("ab", ".*c"));//false
     	System.out.println(solution.isMatch("aaa", "a.a"));//true
     	System.out.println(solution.isMatch("a", "ab*"));//true
+    	System.out.println(solution.isMatch("a", "ab*b*"));//true
     }
 }

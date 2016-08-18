@@ -1,4 +1,4 @@
-package algorithms.a1_to_a10.a4_MedianofTwoSortedArrays;
+package algorithms.a1_to_a10.a4_MedianofTwoSortedArrays_Hard;
 
 import java.util.Arrays;
 
