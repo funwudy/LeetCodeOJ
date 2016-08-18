@@ -41,8 +41,8 @@ public class Solution2 {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Solution2 solution = new Solution2();
-    	System.out.println(solution.longestPalindrome("aaaa"));
+//		Solution2 solution = new Solution2();
+//    	System.out.println(solution.longestPalindrome("aaaa"));
 	}
 
 }
