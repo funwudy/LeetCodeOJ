@@ -1,4 +1,4 @@
-package algorithms.a5_LongestPalindromicSubstring;
+package algorithms.a1_to_a10.a5_LongestPalindromicSubstring;
 
 public class Solution {
 	

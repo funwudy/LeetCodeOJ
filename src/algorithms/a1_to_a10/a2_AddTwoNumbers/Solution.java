@@ -1,4 +1,4 @@
-package algorithms.a2_AddTwoNumbers;
+package algorithms.a1_to_a10.a2_AddTwoNumbers;
 
 import java.util.Stack;
 

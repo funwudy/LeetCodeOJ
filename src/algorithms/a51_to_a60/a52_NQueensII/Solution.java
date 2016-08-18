@@ -1,39 +1,24 @@
-package algorithms.a51_NQueens;
+package algorithms.a51_to_a60.a52_NQueensII;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Solution {
-	int N;
-	List<List<String>> ans = new ArrayList<>();
 	
-    public List<List<String>> solveNQueens(int n) {
-    	N = n;
-        int[] positions = new int[n];
-        int[][] vis = new int[n][n];
+	int N;
+	int cnt = 0;
+	
+    public int totalNQueens(int n) {
+        N = n;
+        int[][] vis = new int[N][N];
+        int[] positions = new int[N];
         place(0, vis, positions);
-        return ans;
-    }
-    
-    public List<String> drawGraph(int[] positions) {
-    	char[][] graph = new char[N][N];
-    	List<String> res = new ArrayList<>();
-    	for (int i = 0; i < N; i++) {
-    		for (int j = 0; j < N; j++) {
-    			if (positions[i] == j) {
-    				graph[i][j] = 'Q';
-    			} else {
-					graph[i][j] = '.';
-				}
-    		}
-    		res.add(new String(graph[i]));
-    	}
-    	return res;
+        return cnt;
     }
     
     public void place(int row, int[][] vis, int[] positions) {
     	if (row >= N) {
-    		ans.add(drawGraph(positions));
+    		cnt++;
     		return;
     	}
     	for (int i = 0; i < N; i++) {
@@ -68,5 +53,4 @@ public class Solution {
 			this.y = y;
 		}
     }
-    
 }

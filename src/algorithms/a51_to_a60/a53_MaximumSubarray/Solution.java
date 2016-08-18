@@ -1,4 +1,4 @@
-package algorithms.a53_MaximumSubarray;
+package algorithms.a51_to_a60.a53_MaximumSubarray;
 
 public class Solution {
 //	public int maxSubArray(int[] nums) {
