@@ -5,6 +5,7 @@ import java.util.*;
 /**
  * Created by 31798 on 2016/8/21.
  */
+// #Array#, #Two Pointers#
 public class Solution {
 
     public List<List<Integer>> threeSum(int[] nums) {

@@ -1,6 +1,6 @@
 package algorithms.a11_to_a20.a11_ContainerWithMostWater_Medium;
 
-//#Array#, #Two Pointers#
+// #Array#, #Two Pointers#
 public class Solution {
     public int maxArea(int[] height) {
         int l = 0, r = height.length - 1;
