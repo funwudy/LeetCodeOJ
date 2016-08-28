@@ -1,4 +1,4 @@
-package algorithms.a11_to_a20.a15_3Sum_Medium;
+package algorithms.a1_to_a50.a15_3Sum_Medium;
 
 import java.util.*;
 

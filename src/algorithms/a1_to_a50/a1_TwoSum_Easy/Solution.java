@@ -1,4 +1,4 @@
-package algorithms.a1_to_a10.a1_TwoSum_Easy;
+package algorithms.a1_to_a50.a1_TwoSum_Easy;
 
 public class Solution {
     public int[] twoSum(int[] nums, int target) {

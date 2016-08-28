@@ -1,4 +1,4 @@
-package algorithms.a1_to_a10.a10_RegularExpressionMatching_Hard;
+package algorithms.a1_to_a50.a10_RegularExpressionMatching_Hard;
 
 public class Solution {
     public boolean isMatch(String s, String p) {

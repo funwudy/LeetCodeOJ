@@ -1,4 +1,4 @@
-package algorithms.a11_to_a20.a16_3SumClosest_Medium;
+package algorithms.a1_to_a50.a16_3SumClosest_Medium;
 
 import java.util.Arrays;
 

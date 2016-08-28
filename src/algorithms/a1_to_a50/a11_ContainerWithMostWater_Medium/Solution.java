@@ -1,4 +1,4 @@
-package algorithms.a11_to_a20.a11_ContainerWithMostWater_Medium;
+package algorithms.a1_to_a50.a11_ContainerWithMostWater_Medium;
 
 // #Array#, #Two Pointers#
 public class Solution {

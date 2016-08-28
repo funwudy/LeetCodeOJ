@@ -1,4 +1,4 @@
-package algorithms.a1_to_a10.a2_AddTwoNumbers_Medium;
+package algorithms.a1_to_a50.a2_AddTwoNumbers_Medium;
 
 import java.util.Stack;
 

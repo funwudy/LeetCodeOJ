@@ -1,4 +1,4 @@
-package algorithms.a11_to_a20.a17_LetterCombinationsOfAPhoneNumber_Medium;
+package algorithms.a1_to_a50.a17_LetterCombinationsOfAPhoneNumber_Medium;
 
 import java.util.ArrayList;
 import java.util.List;

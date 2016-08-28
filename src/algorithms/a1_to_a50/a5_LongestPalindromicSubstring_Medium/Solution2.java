@@ -1,4 +1,4 @@
-package algorithms.a1_to_a10.a5_LongestPalindromicSubstring_Medium;
+package algorithms.a1_to_a50.a5_LongestPalindromicSubstring_Medium;
 
 public class Solution2 {
 
