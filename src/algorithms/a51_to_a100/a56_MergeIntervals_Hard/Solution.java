@@ -43,7 +43,6 @@ public class Solution {
             this.end = end;
         }
 
-
         @Override
         public int compareTo(MyInterval interval) {
             if (start < interval.start) {
