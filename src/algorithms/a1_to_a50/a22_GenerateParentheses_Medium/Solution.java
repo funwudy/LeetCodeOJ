@@ -6,6 +6,7 @@ import java.util.List;
 /**
  * Created by 31798 on 2016/9/16.
  */
+// #Backtracking#, #String#
 public class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> ans = new ArrayList<>();
